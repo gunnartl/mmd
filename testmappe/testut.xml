@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier/>
+  <mmd:title xml:lang="en">Meteorological data measured at Tara ice camp</mmd:title>
+  <mmd:abstract xml:lang="en">Data were collected using Aanderaa automatic weather station fixed on a 10 m 
+met. mast at the drfting Tara ice camp during September 2006 until December 
+2007. Data for every month are presented in separate files. Tara drifted on the 
+Arctic Ocean starting north from Severnaya Zemlya up to 88 degN and finishing in 
+Fram Strait east from Greenland. For a complete review of the measurements see 
+Vihma, T., Jaagus, J., Jakobson, E:, Palo, T., 2008. Meteorological conditions 
+in the Arctic Ocean in spring and summer 2007 as recorded on the drifting ice 
+station Tara. Geophys. Res. Lett., 35, L18706, doi:10.1029/2008GL034681 </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2012-10-31T12:00:00Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+      <mmd:note>Forsoeker aa forstaa</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2012-10-31T12:00:00Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+      <mmd:note>Forsoeker aa forstaa</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2006-09-07T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2007-12-09T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Polar Troposphere Meteorological Observation Measurement Atmospheric Boundary Layer Temperature Humidity Wind Pressure</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>88.47</mmd:north>
+      <mmd:south>79.80</mmd:south>
+      <mmd:west>-4.07</mmd:west>
+      <mmd:east>148.27</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name/>
+    <mmd:long_name>DAMOCLES</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Ice station</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Jaak Jaagus</mmd:name>
+    <mmd:email>jaak.jaagus@ut.ee</mmd:email>
+    <mmd:phone/>
+    <mmd:fax/>
+    <mmd:organisation>UT Tartu Uelikool</mmd:organisation>
+  </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description/>
+    <mmd:resource>http://thredds.met.no/thredds/catalog/data/UT/TaraMeteo/catalog.html?dataset=UT/TaraMeteo/TaraMeteo_AWS_Feb07.nc</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

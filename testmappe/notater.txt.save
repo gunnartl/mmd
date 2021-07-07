@@ -1,0 +1,11 @@
+ser ut som om alle mangler denne: 
+<metadata_status>
+Active
+</metadata_status> og klager når jeg sjekker opp mot xsd
+	har også manglende documentasjon
+
+mangler også denne:
+<collection>
+ADC
+</collection>
+	her mmå jeg spørre hva vi skal sette. Arctic Data Center sa de var fallback

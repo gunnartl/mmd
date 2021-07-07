@@ -1,0 +1,28 @@
+ser ut som om alle mangler denne: 
+<metadata_status>
+Active
+</metadata_status> og klager når jeg sjekker opp mot xsd
+	har også manglende documentasjon
+
+mangler også denne:
+<collection>
+ADC
+</collection>
+ og denne: 
+
+<mmd:last_metadata_update><!-- lagd til-->
+  <mmd:update>
+    <mmd:datetime>2012-10-31T12:00:00Z</mmd:datetime>
+    <mmd:type>Created</mmd:type>
+    <mmd:note>Forsoeker aa forstaa</mmd:note>
+  </mmd:update>
+</mmd:last_metadata_update><!-- lagd til-->
+
+dette:
+  <mmd:related_dataset mmd:relation_type="parent"/>
+burde være dette:
+  <mmd:related_dataset relation_type="parent"/>
+
+Det står feil dato i alle Tarameteo-filene. det dekker hele prosjektet. 
+gjelder også netcdf-filene
+    

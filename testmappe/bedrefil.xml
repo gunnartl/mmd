@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+  
+  Meteorological data measured at Tara ice camp
+  Data were collected using Aanderaa automatic weather station fixed on a 10 m 
+met. mast at the drfting Tara ice camp during September 2006 until December 
+2007. Data for every month are presented in separate files. Tara drifted on the 
+Arctic Ocean starting north from Severnaya Zemlya up to 88 degN and finishing in 
+Fram Strait east from Greenland. For a complete review of the measurements see 
+Vihma, T., Jaagus, J., Jakobson, E:, Palo, T., 2008. Meteorological conditions 
+in the Arctic Ocean in spring and summer 2007 as recorded on the drifting ice 
+station Tara. Geophys. Res. Lett., 35, L18706, doi:10.1029/2008GL034681 
+  Complete
+  
+  
+    2006-09-07T12:00:00Z
+    2007-12-09T12:00:00Z
+  
+  climatologyMeteorologyAtmosphere
+  
+    Atmosphere &gt; Atmospheric Winds &gt; Surface Winds
+    Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity
+    Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature
+  
+  
+    Polar Troposphere Meteorological Observation Measurement Atmospheric Boundary Layer Temperature Humidity Wind Pressure
+  
+  Scientific
+  
+    
+      88.47
+      79.80
+      -4.07
+      148.27
+    
+  
+  Free
+  
+    
+    DAMOCLES
+  
+  Ice station
+  
+    Investigator
+    Jaak Jaagus
+    jaak.jaagus@ut.ee
+    
+    
+    UT Tartu Uelikool
+  
+  
+    HTTP
+    
+    http://thredds.met.no/thredds/catalog/data/UT/TaraMeteo/catalog.html?dataset=UT/TaraMeteo/TaraMeteo_AWS_Apr07.nc
+  
+  
+
