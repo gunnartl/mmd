@@ -9,30 +9,22 @@
       <xsl:copy>
          <xsl:apply-templates select="@* | node()"/>
       </xsl:copy>
-      <xsl:if test="not(mmd:metadata_status)">
-            <xsl:copy-of select="mmd:abstract"/>
-            <xsl:text>&#xa;</xsl:text>
-            <mmd:metadata_status>Active</mmd:metadata_status>
-      </xsl:if>
-   </xsl:template>
-   
-   <xsl:template match="/">
-      <xsl:if test="not(mmd:metadata_status)">
-            <xsl:copy-of select="mmd:abstract"/>
-            <xsl:text>&#xa;</xsl:text>
-            <mmd:metadata_status>Active</mmd:metadata_status>
-      </xsl:if>
    </xsl:template>
 
+   <xsl:template match="mmd:abstract">
+      <xsl:copy-of select="."/>
+      <xsl:text>&#xa;  </xsl:text>
+      <mmd:metadata_status>Active</mmd:metadata_status>
+   </xsl:template>
 
    <xsl:template match="mmd:collection">
-      <mmd:collection>ADC</mmd:collection>
+      <xsl:element name= "mmd:collection">ADC</xsl:element>
       <xsl:text>&#xa;  </xsl:text>
-      <mmd:last_metadata_update><!-- lagd til-->
+      <xsl:element name = "mmd:last_metadata_update"><!-- lagd til-->
          <xsl:text>&#xa;    </xsl:text>
          <mmd:update>
             <xsl:text>&#xa;      </xsl:text>
-            <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+            <mmd:datetime>2021-07-20T12:00:00Z</mmd:datetime>
             <xsl:text>&#xa;      </xsl:text>
             <mmd:type>Major modification</mmd:type>
             <xsl:text>&#xa;      </xsl:text>
@@ -40,7 +32,7 @@
             <xsl:text>&#xa;      </xsl:text>
          </mmd:update>
          <xsl:text>&#xa;    </xsl:text>
-      </mmd:last_metadata_update><!-- lagd til-->
+      </xsl:element><!-- lagd til-->
    </xsl:template>
 
    <xsl:template match="mmd:access_constraint">
@@ -68,8 +60,28 @@
    </xsl:template>
 
    <xsl:template match="mmd:related_dataset">
-
+      <xsl:if test=". != null">
+         <xsl:copy-of select="."/>
+      </xsl:if>
    </xsl:template>
+
+   <xsl:template match="mmd:personnel">
+      <xsl:copy-of select="."/>
+      <xsl:text>&#xa;  </xsl:text>
+      <xsl:element name = "mmd:personnel">
+         <xsl:text>&#xa;    </xsl:text>
+         <mmd:role>Metadata author</mmd:role>
+         <xsl:text>&#xa;    </xsl:text>
+         <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+         <xsl:text>&#xa;    </xsl:text>
+         <mmd:email>gunnartl@uio.no</mmd:email>
+         <xsl:text>&#xa;    </xsl:text>
+      </xsl:element>
+
+      </xsl:template>      
+
+
+
    
 
 

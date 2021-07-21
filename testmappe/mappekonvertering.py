@@ -17,7 +17,7 @@ for xml_file in a:
     print('\r', 'Konverterer fil {:d} av {:d}\r'.format(i,len(a)),end='',flush=True)
     i +=1
     old = xml_file.split("/")
-    if len(old)>4:
+    if old[2]=="mmd-clean":
         continue
     if len(old)==4:
         if not os.path.exists("../mmd-cleaning/mmd-clean/"+old[-2]):
