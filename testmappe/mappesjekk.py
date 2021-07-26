@@ -4,7 +4,7 @@ import glob
 
 checkFiles = sorted(glob.glob("../mmd-cleaning/mmd-clean/*/*.xml",recursive=True))
 
-checkFiles = sorted(glob.glob("../mmd-cleaning/mmd-clean/UGOT-data/*.xml",recursive=True))
+checkFiles = sorted(glob.glob("../mmd-cleaning/mmd-clean/TH*.xml",recursive=True))
 print(len(checkFiles))
 xsdFile = "../xsd/mmd.xsd"
 
