@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>2a36d1ce-7ff8-5f7e-ab9d-c141f30b4c39</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Norwegian IPY-THORPEX field campaign 2008</mmd:title>
+  <mmd:abstract xml:lang="en">The files contain data from NCAR GPS dropsondes AVAPS (Airborne Vertical 
+Atmospheric Profiling System), taken during the Norwegian IPY-THORPEX field 
+campaign from 25 February to 17 March 2008. A description of AVAPS is given 
+in:
+http://www.eol.ucar.edu/isf/facilities/dropsonde/
+The data has been 
+post-processed and quality controlled with the Atmospheric Sounding Processing 
+Environment (ASPEN). For more information, see: 
+
+http://www.eol.ucar.edu/isf/facilities/software/aspen/aspen.html 
+During the 
+campaign period the DLR Falcon 20 was stationed at Andenes airport in Norway and 
+used for flight missions for the study of adverse weather in the Arctic region. 
+The field campaign had a particular focus on polar lows. Two such events was 
+measured during the campaign period, 3-4 March and 17 March. The 3-4 March case 
+was measured by 3 flight missions, documenting the full life cycle of a polar 
+low. The IPY-THORPEX project is described in: http://www.ipy-thorpex.no. A 
+description of each flight, including the flight plansas given in: 
+http://www.pa.op.dlr.de/ipy_thorpex/ </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2011-05-31T13:00:37Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+    </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2008-02-25T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-03-18T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Polar low</mmd:keyword>
+    <mmd:keyword>Profile</mmd:keyword>
+    <mmd:keyword>AVAPS</mmd:keyword>
+    <mmd:keyword>Arctic</mmd:keyword>
+    <mmd:keyword>Dropsonde</mmd:keyword>
+    <mmd:keyword>Atmosphere</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Winds &gt; Wind Profiles</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Altitude &gt; Geopotential Height</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Temperature &gt; Potential Temperature</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>66.1831970214844</mmd:north>
+      <mmd:south>64.5790023803711</mmd:south>
+      <mmd:west>-34.4029006958008</mmd:west>
+      <mmd:east>-18.2189998626709</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>IPY-THORPEX</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Aircraft</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Jón Egill Kristjánsson</mmd:name>
+    <mmd:email>oyvinds@met.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>met.no Norwegian Meteorological Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/met.no/THORPEX-QC080310a/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

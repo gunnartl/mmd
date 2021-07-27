@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>11ae80b6-7d53-5288-a6ec-05c0050f898d</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">ARTIST, measurements in cold-air advection over ice</mmd:title>
+  <mmd:abstract xml:lang="en">Data from aircraft observations during two flights of the aircraft campaign 
+ARTIST (Arctic Radiation and Turbulence Interaction Study) caried out by AWI 
+1998. The first set of delivered files contain data from on-ice flow over the 
+Fram Strait (26 March 1998) including profiles of radiation fluxes in stratus 
+clouds over a region with closed pack ice. The second set of delivered files 
+contain data from a day with clod-air advection over the Barents Sea covered 
+with sea ice. The cold-air advection causes slight unstable stratification over 
+sea ice. A detailed description of both data sets is given in the Damocles 
+Deliverable Report D2.3-01 by Lüpkes and Hartmann (2007). The case with cold-air 
+advectiob is described also in Vihma et al. (2005, BLM, 117(2), 275-300) </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>1998-03-27T12:00:00Z</mmd:start_date>
+    <mmd:end_date>1998-03-27T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>radiation profiles in cloudy air</mmd:keyword>
+    <mmd:keyword>on-ice flow</mmd:keyword>
+    <mmd:keyword>clouds</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>79.5</mmd:north>
+      <mmd:south>78.5</mmd:south>
+      <mmd:west>23</mmd:west>
+      <mmd:east>29</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>ARIST</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Aircraft</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Jörg Hartmann</mmd:name>
+    <mmd:email>christof.luepkes@awi.de</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>AWI Alfred Wegener Institute for Polar and Marine Research</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/AWI/ARTIST/catalog.html</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

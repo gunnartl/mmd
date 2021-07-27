@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>19b99d6e-fee9-59e3-af0e-21ad30542caa</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">SVIM ocean hindcast archive - yearly averages</mmd:title>
+  <mmd:abstract xml:lang="en"> 
+      The dataset contains yearly averages from a 54 year (1958-2011) numerical
+      ocean model hindcast archive, produced with the Regional Ocean
+      Modeling System (ROMS). ROMS is a three dimensional baroclinic
+      ocean general circulation model which uses topography-following
+      s-coordinates in the vertical. This ensures high vertical resolution
+      in shallow areas such as shelf seas and coastal areas. Here, the
+      model is run on a grid with 32 s-layers in the vertical. In the
+      horizontal, the grid resolution is 4 km and covers the Nordic,
+      Barents and Kara seas, as well as parts of the Arctic Ocean. For
+      further reading check http://www.imr.no/filarkiv/2014/01/fh_7-2013_swim_til_web.pdf
+
+      All SVIM data (daily, monthly, yearly, climatology) are currently
+      bundled in the same location, data will be separated when a better
+      application server is implemented.
+  </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>1958-01-02T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2011-12-31T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Oceans &gt; Ocean Circulation &gt; Ocean Currents</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Ocean Temperature &gt; Water Temperature</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Salinity/Density &gt; Salinity</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Sea Ice &gt; Sea Ice Concentration</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Sea Ice &gt; Sea Ice Motion</mmd:keyword>
+    <mmd:keyword>
+      Oceans &gt; Sea Ice &gt; Ice Depth/Thickness</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="CF" />
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north> 87</mmd:north>
+      <mmd:south>46</mmd:south>
+      <mmd:west>-28</mmd:west>
+      <mmd:east>132</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>
+      Spatiotemporal variability in mortality and growth of fish larvae
+      and zooplankton in the Lofoten-Barents Sea ecosystem (SVIM)
+  </mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Model run</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Arne Melsom</mmd:name>
+    <mmd:email>arnem@met.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>
+      Norwegian Meteorological Institute (met.no)
+      Institue of Marine Research (IMR)
+  </mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://archive.norstore.no/pages/public/datasetDetail.jsf?id=10.11582/2015.00014</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

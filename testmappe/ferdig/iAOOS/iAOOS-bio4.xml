@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>0d112e49-fb56-5ec2-a1fc-7485a3cb1487</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Integrated mesozooplankton biomass</mmd:title>
+  <mmd:abstract xml:lang="en">Integrated mesozooplankton biomass expressed as nicrograms Carbon per square 
+meter sampled during 48 hour long shipbased stations on the East Greenland 
+shelf. Data were collected during 2 cruises with KV Svalbard in April 2007 and 
+April-May 2008, and with RV Jan Mayen May 2007. Data from 2007 is integrated for 
+the uppermost 200 meter using sampling device WP-2 net with 90 micron mesh size. 
+Data from 2008 is integrated for the uppermost 100 meter using sampling device 
+Multinet with 180 micron mesh size. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2011-01-18T15:00:53Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2007-04-15T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-05-28T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>integrated mesozooplankton biomass</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Biosphere &gt; Aquatic Ecosystems &gt; Plankton &gt; Zooplankton</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>79.893</mmd:north>
+      <mmd:south>74.888</mmd:south>
+      <mmd:west>-13.423</mmd:west>
+      <mmd:east>-0.859</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>iAOOS-Norway:Closing the loop</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Cruise</mmd:activity_type>
+  <mmd:platform>
+    <mmd:short_name />
+    <mmd:long_name />
+  </mmd:platform>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Marit Reigstad</mmd:name>
+    <mmd:email>marit.reigstad@uit.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>University of Tromsø, Department of Arctic and Marine Biology</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/met.no/iAOOS-bio4/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

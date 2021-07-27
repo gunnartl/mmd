@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>c4aca83f-0133-5d1d-9ae2-f0a03d0cc2e8</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Meteorological profiles measured by the unmanned aerial vehicle, small unmanned meteorological observer -sumo, on and around Spitsbergen, 2009</mmd:title>
+  <mmd:abstract xml:lang="en">The measurements consist of temperature, relative humidity and wind profile data 
+collected by an autonomous UAV (SUMO) in Adventdalen in the vicinity of 
+Longyearbyen and at Longyearbyen aiport, February-March 2009 </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2010-06-09T09:00:03Z</mmd:datetime>
+        <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+        <mmd:type>Major modification</mmd:type>
+        <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+  </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2008-02-28T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2009-04-04T23:59:03Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Storfjorden</mmd:keyword>
+    <mmd:keyword>Spitsbergen</mmd:keyword>
+    <mmd:keyword>pressure</mmd:keyword>
+    <mmd:keyword>soundings</mmd:keyword>
+    <mmd:keyword>wind</mmd:keyword>
+    <mmd:keyword>meteorological measurements</mmd:keyword>
+    <mmd:keyword>Atmospheric profiles</mmd:keyword>
+    <mmd:keyword>temperature</mmd:keyword>
+    <mmd:keyword>humidity</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Atmosphere, Atmospheric Temperature, Atmospheric Winds, Temperature Profiles, Atmospheric Water Vapor, Water Vapor Profiles, Wind Profiles, Boundary Layer Winds</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>78.2576</mmd:north>
+      <mmd:south>76.6790</mmd:south>
+      <mmd:west>12.1329</mmd:west>
+      <mmd:east>17.6716</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>SUMO on Spitsbergen 2008</mmd:long_name>
+  </mmd:project>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>SUMO on Spitsbergen 2009</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Aircraft</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Marius Jonassen</mmd:name>
+    <mmd:email>marius.jonassen@gfi.uib.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>UiB University of Bergen</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/UiB/SUMO/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

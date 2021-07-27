@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>6e02cc5d-f721-5b79-9866-ea301296121f</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">WALES</mmd:title>
+  <mmd:abstract xml:lang="en">DLR Falcon airborne lidar data. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+      <mmd:update>
+      <mmd:datetime>2010-01-27T13:00:24Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+      </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2008-02-25T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-03-17T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Airborne Lidar Measurements</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>81.6130599975586</mmd:north>
+      <mmd:south>48.250244140625</mmd:south>
+      <mmd:west>-26.8317813873291</mmd:west>
+      <mmd:east>29.1665096282959</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>IPY-THORPEX</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Aircraft</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Dr. Christoph Kiemle</mmd:name>
+    <mmd:email>Christoph.Kiemle@dlr.de</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>Deutsches Zentrum fuer Luft- und Raumfahrt, Institut fuer Physik der Atmosphaere, Oberpfaffenhofen, Muenchner Str. 20, 82234 Wessling, Germany</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/met.no/DLR-Airborne-Lidar/</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

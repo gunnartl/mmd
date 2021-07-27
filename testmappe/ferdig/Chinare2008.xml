@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>d1544bb2-7f57-558f-b0b6-3db9a1fbf58c</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Chinare_Radiation_Measurements_2008</mmd:title>
+  <mmd:abstract xml:lang="en">Spectral albedo measurements on sea ice during the third CHINARE expedition with 
+the Chinese ice breaker MS Xuelong in the Chukchi Sea from 20 to 29 August 
+2008.Each measurement type (incident, reflected) was made with a different TriOS 
+Ramses spectroradiometer. These sensors are known to have calibration issues at 
+the longest and shortest wavelengths for which data are reported; we recommend 
+using only data from about 350 to 920 nm. No significant quality control has 
+beendone to these data. Station descriptions: Ia, 20 Aug. 15:00 to 21 Aug. 
+07:30, Level ice with open melt pond near by, zi: 2.8m, fb: 34 cm, zs: 2-3 to 9 
+cm. Ib, 21 Aug. 10:30 to 22 Aug. 21:50, Same as Ia, just re-installed after 
+station fell over. II, 22 Aug. 23:00 to 25 Aug. 02:40, Over refrozen melt pond 
+and level ice, increasing amount of snow on melt pond with time (snow drift). 
+III, 25 Aug. 03:50 to 25 Aug. 05:20, Half over snow, half over melt pond, 
+station fell over after short time, zs: 7 cm. 25 Aug. 05:20 to 26 Aug. 08:40, No 
+useful data, station fallen over. IV, 26 Aug. 08:40 to 29 Aug. 00:20, Set-up 
+over open lead, other activities close by, zs: 9 cm, changing cloud cover, new 
+ice formation in lead (5-7 cm at end). </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2010-09-30T14:00:20Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+    </mmd:update>
+  </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2008-08-20T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-08-29T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Reflectance</mmd:keyword>
+    <mmd:keyword>Observation</mmd:keyword>
+    <mmd:keyword>Snow</mmd:keyword>
+    <mmd:keyword>Sea Ice</mmd:keyword>
+    <mmd:keyword>Solar</mmd:keyword>
+    <mmd:keyword>Albedo</mmd:keyword>
+    <mmd:keyword>Radiation</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Albedo</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Sea Ice &gt; Reflectance</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Snow/Ice &gt; Albedo</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Solar Radiation</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Sea Ice &gt; Ice Floes</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>85.5</mmd:north>
+      <mmd:south>84.5</mmd:south>
+      <mmd:west>-148</mmd:west>
+      <mmd:east>-144</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>IPY/iAOOS/Damocles</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Ice station</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Sebastian Gerland</mmd:name>
+    <mmd:email>sebastian.gerland@npolar.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>NPI Norwegian Polar Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/NPI/Chinare2008/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

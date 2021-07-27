@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>5dc35eaa-2c8f-5b2f-b01c-286d66099b95</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Radiation measurement Fram Strait spring 2008: 05-D4 Transmission through ice</mmd:title>
+  <mmd:abstract xml:lang="en">Radiation measurements made during the spring 2008 cruise to the Fram Strait. 
+Transmission of light through ice, measured by divers on day 4 of fifth floe. At 
+fourth site, approx. 20 m from ice edge, 0.42 m snow on 1.04 m ice. Each 
+measurement type (incident, reflected, etc) was made with a different TriOS 
+Ramses spectroradiometer. These are known to have calibration issues at the 
+longest and shortest wavelengths for which data are reported; we recommend using 
+only data from about 350 to 920 nm. No significant quality control has been done 
+to these data. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+     <mmd:update>
+      <mmd:datetime>2009-05-05T08:48:07Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+    </mmd:update>
+  </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2008-04-23T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-05-29T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Reflectance</mmd:keyword>
+    <mmd:keyword>Observation</mmd:keyword>
+    <mmd:keyword>Snow</mmd:keyword>
+    <mmd:keyword>Sea Ice</mmd:keyword>
+    <mmd:keyword>Solar</mmd:keyword>
+    <mmd:keyword>Albedo</mmd:keyword>
+    <mmd:keyword>Radiation</mmd:keyword>
+    <mmd:keyword>Transmission</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Shortwave Radiation</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Ocean Optics &gt; Attenuation/Transmission</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Albedo</mmd:keyword>
+    <mmd:keyword>Atmosphere &gt; Atmospheric Radiation &gt; Solar Radiation</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Snow/Ice &gt; Albedo</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Sea Ice &gt; Reflectance</mmd:keyword>
+    <mmd:keyword>Cryosphere &gt; Sea Ice &gt; Ice Floes</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>79.5899963378906</mmd:north>
+      <mmd:south>77.6600036621094</mmd:south>
+      <mmd:west>-6</mmd:west>
+      <mmd:east>-2.40000009536743</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>IPY/iAOOS/Damocles</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Ice station</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Sebastian Gerland</mmd:name>
+    <mmd:email>sebastian.gerland@npolar.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>NPI Norwegian Polar Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/NPI/KVS2008/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

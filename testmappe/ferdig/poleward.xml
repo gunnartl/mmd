@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>1b61f223-9c6e-58b2-b013-ab9ad4f2a646</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Surface drifter ID=94204 data, POLEWARD project (NO971274042), Met.No, UiO, UiB, NP, 2007-2010</mmd:title>
+  <mmd:abstract xml:lang="en">Content: Data from surface drifter ID=94204deployed in the Nordic Seas, POLEWARD 
+project (NO971274042) 
+ Project Owner: met.no 
+ Partners: Met.no, UiO, UiB, NPI 
+
+ Project Menager: Cecilie Mauritzen (c. mauritzen@met.no) 
+ Variables: Drifter 
+index, time (days from 01-01-1970) 
+ position longitude (degr E), position 
+latitude (degr N), SST (K) 
+ Data publicly available under the Global Drifter 
+Program,http://www.aoml.noaa.gov/phod/dac/gdp.html 
+ Processing: quality 
+control, kriging, resampling til dt=0.25 day, for details see 
+http://www.aoml.noaa.gov/phod/dac/dacdata.html. 
+ The data is corrected for the 
+drogue loss. Missing data are flagged a value of 999.9990 
+ Update status for 
+the whole data set: data from 145/150 drifters are included 
+ (Transmitted 
+successfully) 
+ The data included spans the period 24 June 2007 - 30 September 
+2010 
+ (as on 22 March 2011 - this is the last status of the quality-controlled 
+data comes with ca. 6 month delay) 
+ For the update we need to wait for QC from 
+AOML/NOAA 
+ Contact: Inga Koszalka, UiO, inga.koszalka@geo.uio.no, 
+j.h.lacasce@geo.uio.no </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2010-09-07T17:01:05Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+    </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+    </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2007-06-24T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2010-09-30T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>DRIFTING BUOYS</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>80.695</mmd:north>
+      <mmd:south>61.912</mmd:south>
+      <mmd:west>-29.999</mmd:west>
+      <mmd:east>56.481</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>POLEWARD</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Float</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Inga Koszalka</mmd:name>
+    <mmd:email>inga.koszalka@geo.uio.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>UiO University of Oslo</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/UiO/poleward/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

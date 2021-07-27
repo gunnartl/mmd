@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>c2fd044a-e11a-510d-981e-329a6e614598</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Helicopter ADCP data from the KVS2007 cruise</mmd:title>
+  <mmd:abstract xml:lang="en">Current profiles collected by the Norwegain Polar Institute. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2011-03-17T20:01:00Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+      </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2007-04-15T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2007-04-24T23:59:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>ADCP Current Marine Observation Ocean Oceanography Sea</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Oceans &gt; Ocean Circulation &gt; Ocean Currents</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>79.7890</mmd:north>
+      <mmd:south>77.6468</mmd:south>
+      <mmd:west>-11.9194</mmd:west>
+      <mmd:east>-3.2506</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>iAOOS-Norway</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Cruise</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Edmond Hansen</mmd:name>
+    <mmd:email>paul.dodd@npolar.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>NPI Norwegian Polar Institute</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/NPI/kvs2007/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

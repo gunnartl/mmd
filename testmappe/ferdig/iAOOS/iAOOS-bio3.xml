@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>620a27c7-4d0f-55b4-a35a-a2b23e388995</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Sediment trap profiles</mmd:title>
+  <mmd:abstract xml:lang="en">sediment trap measurements of POC/PON, faecal pellets, pigments were measured 
+druing 3 cruises with KV Svalbard and RV Jan Mayen in April and May 2007 and 
+April-May 2008. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2010-09-17T13:01:02Z</mmd:datetime>
+      <mmd:type>Created</mmd:type>
+     </mmd:update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+     </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2007-04-15T00:00:00Z</mmd:start_date>
+    <mmd:end_date>2008-05-28T23:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>PON</mmd:keyword>
+    <mmd:keyword>POC</mmd:keyword>
+    <mmd:keyword>faecal pellets</mmd:keyword>
+    <mmd:keyword>pigments</mmd:keyword>
+    <mmd:keyword>sediment trap</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Oceans &gt; Ocean Chemistry &gt; Carbon</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Ocean Chemistry &gt; Nitrogen</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Ocean Chemistry &gt; Pigments &gt; Chlorophyll</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Ocean Chemistry &gt; Pigments</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>79.802</mmd:north>
+      <mmd:south>74.912</mmd:south>
+      <mmd:west>-13.385</mmd:west>
+      <mmd:east>0.004</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>iAOOS-Norway</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Cruise</mmd:activity_type>
+  <mmd:platform>
+    <mmd:short_name />
+    <mmd:long_name />
+  </mmd:platform>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Marit Reigstad</mmd:name>
+    <mmd:email>marit.reigstad@uit.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>University of Tromsø, department of Arctic and Marine Biology</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/met.no/iAOOS-bio3/catalog.html</mmd:resource>
+  </mmd:data_access>
+</mmd:mmd>

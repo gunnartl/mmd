@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>c318a54a-20f4-5243-8d21-8c946efd0aa0</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">cold air outbreak data (REFLEX)</mmd:title>
+  <mmd:abstract xml:lang="en">Data of drop sondes released from an aircraft during cold-air outbreaks over the 
+Fram Strait (4 March 1993). 7 profiles of temperature, humidity and wind are 
+available as a function of distance to the pack ice edge. Details in Lüpkes and 
+Schlünzen 1996, BLM, 79,107-130. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>1993-03-04T12:00:00Z</mmd:start_date>
+    <mmd:end_date>1993-03-04T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>cold-air outbreak</mmd:keyword>
+    <mmd:keyword>arctic boundary layer</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>81</mmd:north>
+      <mmd:south>78</mmd:south>
+      <mmd:west>7</mmd:west>
+      <mmd:east>7</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>REFLEX-2</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Aircraft</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Joerg Hartmann</mmd:name>
+    <mmd:email>christof.luepkes@awi.de</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>AWI Alfred Wegener Institute for Polar and Marine Research</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/AWI/reflex/catalog.html</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

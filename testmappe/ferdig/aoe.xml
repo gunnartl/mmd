@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>905e4f90-59ef-52a3-9888-234b00ff83c1</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Arctic Ocean Experiment 2001 AOE-2001.</mmd:title>
+  <mmd:abstract xml:lang="en">
+Arctic Ocean Experiment 2001 AOE-2001 was an icebreaker based field experiment 
+with a target on the formation of low clouds in the central Arctic summer during 
+July and August 2001. A main portion of the 2-moth experiment was a 3-week ice 
+drift from 89 to 88 degN. Main components of the meteorology part of the 
+experiment were surface-based remote- sensing observations, general meteorology 
+observations (weather staion and soundings) and boundary-layer observations on 
+the ice. For a complete review of the experiment and a full list of instruments, 
+see Tjernström et al. 2004 ("The summertime Arctic atmosphere: Meteorological 
+measurements during the Arctic Ocean Experiment (AOE-2001)" in Bulletin of the 
+American Meteorological Society, 85, 1305 - 1321, and its on-line supplement 
+"Experimental equipment: A supplement to The summertime Arctic atmosphere: 
+Meteorological measurements during the Arctic Ocean Experiment (AOE-2001)"). 
+Observations included in the dataset:
+   Observations from 2D-wind sonic anemometer on the mast of Oden during AOE-2001. Beware of flow distortion from the ship.
+   One-hour averaged cloud base observations from cloud base lidar and cloud radar during AOE-2001
+   Instant cloud-top observations from S-band cloud radar operating in two modes, a low-range high-resolution and a high-range low-resolution mode, respectively, obtained during AOE-2001. The presented data is the highest cloud top altitude observed.
+   Various meteorological observations from a mast placed on an ice-floe during AOE-2001
+   Turbulence statistics from sonic anemometer at 15 meters on the mast averaged over 15 minute obtained during AOE-2001
+   Turbulence statistics from sonic anemometer at 5 meters on the mast averaged over 15 minute obtained during AOE-2001
+   Various meteorological observations from Odens weather station situated at 35 metres ASL during AOE-2001. Winds may be subject to considerable flow distortion. Precipitation is in arbitrary units.
+   One-hour averaged precipitation from present-weather-sensor, which measures no. of precip particles falling past the sensor, during AOE-2001
+   Wind profile data from 915 MHz profiler on foredeck of Oden obtained during AOE-2001
+   Atmospheric baloon sounding data obtained during AOE-2001. The observations are interpolated to a fixed grid for plotting purposes.
+   Measurements from the high range of the S-band cloud radar obtained during AOE-2001. The variables presented are radar reflectivity and hydro-meteor fall velocity.
+   Measurements from the low range of the S-band cloud radar obtained during AOE-2001. The variables presented are radar reflectivity and hydro-meteor fall velocity.
+   Temperature profiles measured by a scanning radiometer obtained during AOE-2001.
+   Measurements from the sodar obtained during AOE-2001. Note that the altitude for each record varies in time.
+   Observations 5 metres AGL from mobile ISSF PAM station 1 during AOE-2001.
+   Turbulence observations 5 metres AGL from mobile ISSF PAM station 1 during AOE-2001.
+   Observations 5 metres AGL from mobile ISSF PAM station 2 during AOE-2001.
+   Turbulence observations 5 metres AGL from mobile ISSF PAM station 1 during AOE-2001.
+   Observations 5 metres AGL from mobile ISSF PAM station 3 during AOE-2001.
+   Turbulence observations 5 metres AGL from mobile ISSF PAM station 1 during AOE-2001.
+   One-hour averaged visibility observations from back-scatter sensor during AOE-2001.
+   </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2001-07-05T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2001-08-21T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>climatologyMeteorologyAtmosphere</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Polar</mmd:keyword>
+    <mmd:keyword>Troposphere</mmd:keyword>
+    <mmd:keyword>Meteorological Observation</mmd:keyword>
+    <mmd:keyword>Measurement</mmd:keyword>
+    <mmd:keyword>Atmospheric Boundary Layer</mmd:keyword>
+    <mmd:keyword>Clouds</mmd:keyword>
+    <mmd:keyword>Remote Sensing</mmd:keyword>
+    <mmd:keyword>Soundings</mmd:keyword>
+    <mmd:keyword>Temperature</mmd:keyword>
+    <mmd:keyword>Humidity</mmd:keyword>
+    <mmd:keyword>Wind</mmd:keyword>
+    <mmd:keyword>Pressure</mmd:keyword>
+    <mmd:keyword>Turbulence</mmd:keyword>
+    <mmd:keyword>Radiation</mmd:keyword>
+    <mmd:keyword>Visibility</mmd:keyword>
+  </mmd:keywords>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>90</mmd:north>
+      <mmd:south>79</mmd:south>
+      <mmd:west>-10</mmd:west>
+      <mmd:east>120</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>AOE-2001</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Cruise</mmd:activity_type>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Michael Tjernstrom</mmd:name>
+    <mmd:email>michaelt@misu.su.se</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>SU Stockholm University</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/SU/aoe/catalog.html</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

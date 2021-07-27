@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>96a343e2-6922-53df-9e62-6fb61e5a61e5</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Acoustic Doppler Current Profiler data from the Storfjorden Sill, 2005/2006</mmd:title>
+  <mmd:abstract xml:lang="en">Under the Developing Arctic Modeling and Observing Capabilities for Long-term 
+Environmental Studies (DAMOCLES) project, an acoustic Doppler current profiler 
+(ADCP) and a Microcat were deployed at the sill separating the Storfjorden in 
+Svalbard Archipelago and Storfjordrenna north of Storfjordbanken on the Barents 
+Sea shelf. Storfjorden, through its polynya activity, produces highly saline 
+water near the freezing temperature which fills the fjord to the sill level (115 
+m) and initiates a gravity driven overflow. A self-contained 307.2 KHz broadband 
+Workhorse, Sentinel, RD Instruments ADCP and a Sea-Bird SBE37SM Microcat (S/N 
+4011), temperature-conductivity-pressure recording unit was deployed at 76deg 
+58.08min N, 19deg 14.95min E at the 111 m isobath on 12 december 2005. The 
+instruments were recovered on 9 August 2006. The instruments are installed in an 
+aluminum trawl-proof frame, attached to a concrete block of 2.5x2.5x0.37 m 
+dimensions. The ADCP sampled at 4-m depth cell size, averaging data (33 pings 
+per ensemble) at 10 min intervals. The first cell was centered at about 6 meter 
+above seafloor. The Microcat sampled at 10min intervals. This dataset consists 
+of hourly averaged vertical profiles of current velocities as well as 
+ADCP-temperature and Microcat-temperature/salinity/pressure at the instrument 
+depth. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2003-09-04T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2007-04-22T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Oceans &gt; Ocean Circulation &gt; Ocean Currents</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>ADCP</mmd:keyword>
+    <mmd:keyword>Storfjorden</mmd:keyword>
+    <mmd:keyword>current</mmd:keyword>
+    <mmd:keyword>overflow</mmd:keyword>
+    <mmd:keyword>Microcat</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>76.97</mmd:north>
+      <mmd:south>76.97</mmd:south>
+      <mmd:west>19.25</mmd:west>
+      <mmd:east>19.3</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>DAMOCLES</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Moored instrument</mmd:activity_type>
+  <mmd:platform>
+    <mmd:short_name />
+    <mmd:long_name>Bottom mounted frame</mmd:long_name>
+  </mmd:platform>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Ilker Fer</mmd:name>
+    <mmd:email>ilker.fer@gfi.uib.no</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>UiB University of Bergen</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/UiB/StorfjordADCP/catalog.html</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

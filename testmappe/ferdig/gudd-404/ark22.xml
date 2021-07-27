@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>77c7c0df-4879-590d-bd28-ea208a31b7f1</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">Arctic Ocean cruise with R/V Polarstern</mmd:title>
+  <mmd:abstract xml:lang="en">
+CTD temperature, salinity, dissolved oxygen and light transmission at 191 stations in the Arctic Ocean
+   </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2007-07-29T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2007-10-06T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd" />
+  <mmd:keywords vocabulary="CF" />
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>89.</mmd:north>
+      <mmd:south>72.</mmd:south>
+      <mmd:west>-26.</mmd:west>
+      <mmd:east>135.</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:platform>
+    <mmd:short_name />
+    <mmd:long_name>R/V Polarstern</mmd:long_name>
+  </mmd:platform>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Andreas Wisotzki</mmd:name>
+    <mmd:email>Andreas.Wisotzki@awi.de</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>AWI Alfred Wegener Institute for Polar and Marine Research</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/AWI/ark22/catalog.html</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>

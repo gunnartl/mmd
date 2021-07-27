@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mmd:mmd xmlns:mmd="http://www.met.no/schema/mmd">
+  <mmd:metadata_identifier>9435da26-c595-558d-a758-6061bd14e591</mmd:metadata_identifier>
+  <mmd:title xml:lang="en">CTD observations during the DAMOCLES support of Vagabond</mmd:title>
+  <mmd:abstract xml:lang="en">VAGABOND is a dedicated base camp for DAMOCLES, which main objective is to study 
+sea ice and brines formation. France Pinczon du Sel and Eric Brossier bring 
+their polar yacht VAGABOND and their experience to work with scientists for 5 
+years, on the East Coast of Spitsbergen 2004-2009. During the stay, 
+oceanographic, meteorological, radiometric and atmospheric soundings were made 
+in Storfjorden. </mmd:abstract>
+  <mmd:metadata_status>Active</mmd:metadata_status>
+  <mmd:dataset_production_status>Complete</mmd:dataset_production_status>
+  <mmd:collection>ADC</mmd:collection>
+  <mmd:last_metadata_update>
+    <mmd:update>
+      <mmd:datetime>2021-07-06T12:00:00Z</mmd:datetime>
+      <mmd:type>Major modification</mmd:type>
+      <mmd:note>Converting from MMD-2 to MMD-3</mmd:note>
+      </mmd:update>
+    </mmd:last_metadata_update>
+  <mmd:temporal_extent>
+    <mmd:start_date>2005-03-08T12:00:00Z</mmd:start_date>
+    <mmd:end_date>2005-03-08T12:00:00Z</mmd:end_date>
+  </mmd:temporal_extent>
+  <mmd:iso_topic_category>oceans</mmd:iso_topic_category>
+  <mmd:keywords vocabulary="gcmd">
+    <mmd:keyword>Oceans &gt; Ocean Temperature &gt; Water Temperature</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Salinity/Density &gt; Conductivity</mmd:keyword>
+    <mmd:keyword>Oceans &gt; Salinity/Density &gt; Salinity</mmd:keyword>
+  </mmd:keywords>
+  <mmd:keywords vocabulary="CF">
+    <mmd:keyword>Ocean Salinity Conductivity Temperature</mmd:keyword>
+  </mmd:keywords>
+  <mmd:operational_status>Scientific</mmd:operational_status>
+  <mmd:geographic_extent>
+    <mmd:rectangle srsName="EPSG:4326">
+      <mmd:north>77.8475</mmd:north>
+      <mmd:south>77.8475</mmd:south>
+      <mmd:west>18.4806666666667</mmd:west>
+      <mmd:east>18.4806666666667</mmd:east>
+    </mmd:rectangle>
+  </mmd:geographic_extent>
+  <mmd:access_constraint>Open</mmd:access_constraint>
+  <mmd:project>
+    <mmd:short_name />
+    <mmd:long_name>DAMOCLES</mmd:long_name>
+  </mmd:project>
+  <mmd:activity_type>Cruise</mmd:activity_type>
+  <mmd:platform>
+    <mmd:short_name />
+    <mmd:long_name>Vagabond</mmd:long_name>
+  </mmd:platform>
+  <mmd:personnel>
+    <mmd:role>Investigator</mmd:role>
+    <mmd:name>Jean Claude Gascard</mmd:name>
+    <mmd:email>jga@locean-ipsl.upmc.fr</mmd:email>
+    <mmd:phone />
+    <mmd:fax />
+    <mmd:organisation>Université Pierre et Marie Curie/UPMC</mmd:organisation>
+  </mmd:personnel>
+  <mmd:personnel>
+    <mmd:role>Metadata author</mmd:role>
+    <mmd:name>Gunnar Thorsen Liahjell</mmd:name>
+    <mmd:email>gunnartl@uio.no</mmd:email>
+    </mmd:personnel>
+  <mmd:data_access>
+    <mmd:type>HTTP</mmd:type>
+    <mmd:description />
+    <mmd:resource>https://thredds.met.no/thredds/catalog/data/met.no/vagabond/catalog.html?dataset=met.no/vagabond/vagabond_Inglefield070305.nc</mmd:resource>
+  </mmd:data_access>
+  
+</mmd:mmd>
